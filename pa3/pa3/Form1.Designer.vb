@@ -26,7 +26,6 @@ Partial Class Form1
         Me.txtRegNum = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.btnClear = New System.Windows.Forms.Button()
-        Me.btnCalcGrade = New System.Windows.Forms.Button()
         Me.lblGradeDisplay = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -37,6 +36,7 @@ Partial Class Form1
         Me.txtModCode = New System.Windows.Forms.TextBox()
         Me.btnWritetoFile = New System.Windows.Forms.Button()
         Me.btnNewStudent = New System.Windows.Forms.Button()
+        Me.btnCalcGrade = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -58,8 +58,8 @@ Partial Class Form1
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.btnClear)
         Me.GroupBox1.Controls.Add(Me.btnCalcGrade)
+        Me.GroupBox1.Controls.Add(Me.btnClear)
         Me.GroupBox1.Controls.Add(Me.lblGradeDisplay)
         Me.GroupBox1.Controls.Add(Me.Label5)
         Me.GroupBox1.Controls.Add(Me.Label4)
@@ -83,15 +83,6 @@ Partial Class Form1
         Me.btnClear.TabIndex = 2
         Me.btnClear.Text = "Clear"
         Me.btnClear.UseVisualStyleBackColor = True
-        '
-        'btnCalcGrade
-        '
-        Me.btnCalcGrade.Location = New System.Drawing.Point(320, 31)
-        Me.btnCalcGrade.Name = "btnCalcGrade"
-        Me.btnCalcGrade.Size = New System.Drawing.Size(75, 23)
-        Me.btnCalcGrade.TabIndex = 2
-        Me.btnCalcGrade.Text = "Calculate"
-        Me.btnCalcGrade.UseVisualStyleBackColor = True
         '
         'lblGradeDisplay
         '
@@ -177,6 +168,15 @@ Partial Class Form1
         Me.btnNewStudent.Text = "Enter New Student"
         Me.btnNewStudent.UseVisualStyleBackColor = True
         '
+        'btnCalcGrade
+        '
+        Me.btnCalcGrade.Location = New System.Drawing.Point(320, 25)
+        Me.btnCalcGrade.Name = "btnCalcGrade"
+        Me.btnCalcGrade.Size = New System.Drawing.Size(75, 23)
+        Me.btnCalcGrade.TabIndex = 3
+        Me.btnCalcGrade.Text = "Button1"
+        Me.btnCalcGrade.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -201,7 +201,6 @@ Partial Class Form1
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents btnClear As Button
     Friend WithEvents btnWritetoFile As Button
-    Friend WithEvents btnCalcGrade As Button
     Friend WithEvents lblGradeDisplay As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
@@ -211,4 +210,5 @@ Partial Class Form1
     Friend WithEvents Label2 As Label
     Friend WithEvents txtModCode As TextBox
     Friend WithEvents btnNewStudent As Button
+    Friend WithEvents btnCalcGrade As Button
 End Class

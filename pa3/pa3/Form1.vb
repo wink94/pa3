@@ -131,12 +131,21 @@ Public Class Form1
         Next
 
         sw.Close()
+        Array.Clear(gradeArray, 0, gradeArray.Length)
 
     End Sub
 
-    Private Sub btnNewStudent_Click(sender As Object, e As EventArgs) Handles btnNewStudent.Click
 
-        Array.Clear(gradeArray, 0, gradeArray.Length)
 
+    Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
+        txtAttendance.Clear()
+        txtMarks.Clear()
+        txtModCode.Clear()
+        txtRegNum.Clear()
+        lblGradeDisplay.Text = ""
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        lblGradeDisplay.Text = ""
     End Sub
 End Class
