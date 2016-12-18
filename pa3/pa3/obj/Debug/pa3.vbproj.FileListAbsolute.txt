@@ -1,0 +1,11 @@
+F:\2nd sem\VB.Net\PA3\pa3\pa3\bin\Debug\pa3.exe.config
+F:\2nd sem\VB.Net\PA3\pa3\pa3\bin\Debug\pa3.exe
+F:\2nd sem\VB.Net\PA3\pa3\pa3\bin\Debug\pa3.pdb
+F:\2nd sem\VB.Net\PA3\pa3\pa3\bin\Debug\pa3.xml
+F:\2nd sem\VB.Net\PA3\pa3\pa3\obj\Debug\pa3.vbprojResolveAssemblyReference.cache
+F:\2nd sem\VB.Net\PA3\pa3\pa3\obj\Debug\pa3.Form1.resources
+F:\2nd sem\VB.Net\PA3\pa3\pa3\obj\Debug\pa3.Resources.resources
+F:\2nd sem\VB.Net\PA3\pa3\pa3\obj\Debug\pa3.vbproj.GenerateResource.Cache
+F:\2nd sem\VB.Net\PA3\pa3\pa3\obj\Debug\pa3.exe
+F:\2nd sem\VB.Net\PA3\pa3\pa3\obj\Debug\pa3.xml
+F:\2nd sem\VB.Net\PA3\pa3\pa3\obj\Debug\pa3.pdb
